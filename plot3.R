@@ -1,26 +1,4 @@
 
-R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"
-Copyright (C) 2021 The R Foundation for Statistical Computing
-Platform: x86_64-apple-darwin17.0 (64-bit)
-
-R is free software and comes with ABSOLUTELY NO WARRANTY.
-You are welcome to redistribute it under certain conditions.
-Type 'license()' or 'licence()' for distribution details.
-
-  Natural language support but running in an English locale
-
-R is a collaborative project with many contributors.
-Type 'contributors()' for more information and
-'citation()' on how to cite R or R packages in publications.
-
-Type 'demo()' for some demos, 'help()' for on-line help, or
-'help.start()' for an HTML browser interface to help.
-Type 'q()' to quit R.
-
-[R.app GUI 1.76 (7976) x86_64-apple-darwin17.0]
-
-[Workspace restored from /Users/camino19999/.RData]
-[History restored from /Users/camino19999/.Rapp.history]
 
 > power <- read.table("household_power_consumption.txt",skip=1,sep=";")
 > names(power) <- c("Date","Time","Global_active_power","Global_reactive_power","Voltage","Global_intensity","Sub_metering_1","Sub_metering_2","Sub_metering_3")
@@ -38,5 +16,4 @@ Type 'q()' to quit R.
 > 
 > title(main="Energy sub-metering")
 > 
-2021-08-04 16:33:05.777 R[62670:763065] +[NSSavePanel _warmUp] obviated
 > 
